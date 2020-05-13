@@ -18,4 +18,5 @@ def generate():
     print(name)
     return name
 
-app.run()
+if __name__ == "main":
+    app.run()
